@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []( )
-- Live Site URL: []( )
+- Solution URL: [](https://mkdeveloper14.github.io/clipboard-Landing-page-Frontend-Mentor-/ )
+- Live Site URL: [](https://mkdeveloper14.github.io/clipboard-Landing-page-Frontend-Mentor-/ )
 
 ## My process
 
