@@ -1,0 +1,857 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root{
+    --font:'Bai Jamjuree', sans-serif;
+    --strongCyan:hsl(171, 66%, 44%);
+    --LightBlue: hsl(233, 100%, 69%);
+    --DarkGrayishBlue:hsl(210, 10%, 33%);
+    --GrayishBlue:hsl(201, 11%, 66%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    min-height: 100vh;
+}
+.container{
+    width: 100%;
+    min-width: 100vh;
+    background: url(./images/bg-header-desktop.png) no-repeat ;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div1{
+    margin:5rem ;
+    text-align: center;
+}
+.logo{
+    width: 80px;
+    margin-bottom: 1.5rem;
+}
+.title{
+    font-family: var(--font);
+    font-weight: 600;
+    margin-bottom:1rem ;
+}
+.titleDesc{
+    font-family:var(--font) ;
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding: 0 26rem;
+    margin-bottom: 2rem;
+    color: var(--GrayishBlue);
+}
+.btnIos,.btnMac{
+    width:150px;
+    padding: 7px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+    font-weight: 600;
+    color: white;
+    font-family: var(--font);
+    cursor: pointer;
+}
+.btnIos{
+    background-color: var(--strongCyan);
+    border: 2px solid var(--strongCyan);
+    box-shadow: 0 4px 2px  hsl(171, 65%, 36%);
+}
+.btnMac{
+    background-color: var(--LightBlue);
+    border: 2px solid var(--LightBlue);
+    box-shadow: 0 4px 2px  hsl(233, 63%, 56%);
+}
+.div2{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.div2Title{
+    font-family: var(--font);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.div2TitleDesc{
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: var(--GrayishBlue);
+    padding:  0 30rem;
+    line-height: 25px;
+}
+.div3{
+    display: flex;
+    width: 100%;
+    margin-bottom: 8rem;
+}
+.computer{
+    width: 47%;
+    object-position: -50px;
+}
+.div3Desc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4rem;
+}
+.desc1,.desc2,.desc3{
+    width: 40%;
+    margin-bottom: 3rem;
+}
+.desc1desc,.desc2desc,.desc3desc{
+    font-family: var(--font);
+    font-size: 0.8rem;
+    color: var(--GrayishBlue);
+    line-height: 25px   ;
+}
+.desc1title,.desc2title,.desc3title{
+    font-family: var(--font);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.div4{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.div4title{
+    font-family: var(--font);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.div4Desc{
+    font-family: var(--font);
+    color: var(--GrayishBlue);
+    font-size:0.9rem;
+    padding: 0 30rem;
+    line-height: 25px;
+    word-spacing: 2px;
+}
+.div5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.div5 img{
+    width: 50%;
+}
+.div6{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div6Title{
+    font-family: var(--font);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.div6Titledesc{
+    font-family: var(--font);
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--GrayishBlue);
+}
+.div6Types{
+    display: flex;
+    padding: 0 10rem;
+    margin: 4rem 0;
+}
+.blacklist,.sneakPreview,.plaintext{
+    width: 35%;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.blacklistLogo,.sneakPreviewLogo,.plaintextLogo{
+    margin-bottom:1.5rem ;
+}
+.blacklistTitle,.plaintextTitle,.sneakPreviewTitle{
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.blacklistDesc,.plaintextDesc,.sneakPreviewDesc{
+    font-family: var(--font);
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--GrayishBlue);
+    padding: 0 30px;
+    line-height: 25px;
+}
+.sneakPreviewDesc{
+    padding: 0 30px 0 0;
+}
+.div7{
+    width: 90%;
+    margin: 1rem 5rem 7rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cmp{
+    width: 100px;
+}
+.div8{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    text-align: center;
+}
+.div8Title{
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    
+}
+.div8Desc{
+    font-family: var(--font);
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--GrayishBlue);
+    padding: 0 30rem;
+    line-height: 25px;
+    margin-bottom: 2rem;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    margin: 7rem 5rem 0;
+    padding: 2rem;
+    background-color: hsla(200, 13%, 77%, 0.625);
+}
+.FooterlogoDiv,.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FooterlogoDiv{
+    margin: 0 7rem 0 5rem;
+}
+.features{
+    margin: 0 10rem 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr ;
+    gap: 1rem;
+}
+.feature1,.feature2,.feature3,.feature4,.feature5{
+    font-family: var(--font);
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left:5rem ;
+    padding-left:2rem ;
+    color: var(--DarkGrayishBlue);
+    cursor: pointer;
+}
+.socialMedia{
+    margin-left: 5rem;
+}
+.icon{
+    margin-left: 1.5rem;
+}
+a{
+    text-decoration: none;
+}
+.feu:hover{
+    color: var(--strongCyan);
+}
+.btnIos:hover{
+    background-color: hsla(160, 52%, 51%, 0.745);
+}
+.btnMac:hover{
+    background-color: hsl(233, 63%, 66%);
+}
+.icon:hover{
+    transform: scale(120%);
+}
+@media screen and (max-width:430px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        width: 100%;
+        min-height: 100vh;
+    }
+    .container{
+        width: 100%;
+        min-width: 100vh;
+        background: url(./images/bg-header-mobile.png) no-repeat ;
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:  0rem 2rem;
+    }
+    .div1{
+        margin:0rem;
+        margin-top: 5rem;
+        width: 100%;
+        text-align: center;
+    }
+    .logo{
+        width: 150px;
+        margin-bottom: 2rem;
+    }
+    .title{
+        font-family: var(--font);
+        font-weight: 600;
+        margin-bottom:1.2rem;
+        font-size: 3.5rem
+    }
+    .titleDesc{
+        font-family:var(--font) ;
+        font-weight: 400;
+        font-size: 1.9rem;
+        padding: 0 0rem;
+        margin-bottom: 2rem;
+        color: var(--GrayishBlue);
+    }
+    .btnBar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .btnIos,.btnMac{
+        width:100%;
+        padding: 25px;
+        border-radius: 5rem;
+        margin-right: 0.5rem;
+        font-weight: 600;
+        font-size: 2rem;
+        color: white;
+        font-family: var(--font);
+        cursor: pointer;
+        margin-bottom:2rem ;
+    }
+    .btnIos{
+        background-color: var(--strongCyan);
+        border: 2px solid var(--strongCyan);
+        box-shadow: 0 4px 2px  hsl(171, 65%, 36%);
+    }
+    .btnMac{
+        background-color: var(--LightBlue);
+        border: 2px solid var(--LightBlue);
+        box-shadow: 0 4px 2px  hsl(233, 63%, 56%);
+    }
+    .div2{
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .div2Title{
+        font-family: var(--font);
+        font-weight: 600;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .div2TitleDesc{
+        font-family: var(--font);
+        font-weight: 600;
+        font-size: 1.9rem;
+        color: var(--GrayishBlue);
+        padding:  0 0rem;
+        line-height: 35px;
+    }
+    .div3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 8rem;    
+    }
+    .computer{
+        width: 80%;
+        object-position: 0px;
+        margin-bottom: 3rem;
+    }
+    .div3Desc{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0rem;
+        text-align: center ;    
+    }
+    .desc1,.desc2,.desc3{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .desc1desc,.desc2desc,.desc3desc{
+        font-family: var(--font);
+        font-size: 1.5rem;
+        padding: 0 4rem;
+        color: var(--GrayishBlue);
+        line-height: 30px   ;
+    }
+    .desc1title,.desc2title,.desc3title{
+        font-family: var(--font);
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .div4{
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+    .div4title{
+        font-family: var(--font);
+        font-weight: 600;
+        margin-bottom: 1rem;
+        font-size: 3rem;
+    }
+    .div4Desc{
+        font-family: var(--font);
+        color: var(--GrayishBlue);
+        font-size:1.5rem;
+        padding: 0 4rem;
+        line-height: 35px;
+        word-spacing: 2px;
+    }
+    .div5{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+    .div5 img{
+        width: 90%;
+    }
+    .div6{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .div6Title{
+        font-family: var(--font);
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .div6Titledesc{
+        font-family: var(--font);
+        font-size: 1.5rem;
+        padding: 0 5rem;
+        font-weight: 400;
+        color: var(--GrayishBlue);
+    }
+    .div6Types{
+        display: flex;
+        flex-direction: column;
+        padding: 0 0rem;
+        margin: 4rem 0;
+    }
+    .blacklist,.sneakPreview,.plaintext{
+        width: 100%;
+        margin-right: 0rem;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .blacklistLogo,.sneakPreviewLogo,.plaintextLogo{
+        margin-bottom:1.5rem ;
+        width: 50px;
+    }
+    .blacklistTitle,.plaintextTitle,.sneakPreviewTitle{
+        font-family: var(--font);
+        font-weight: 600;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .blacklistDesc,.plaintextDesc,.sneakPreviewDesc{
+        font-family: var(--font);
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: var(--GrayishBlue);
+        padding: 0 30px;
+        line-height: 35px;
+    }
+    .sneakPreviewDesc{
+        padding: 0 30px 0 0;
+    }
+    .div7{
+        width: 100%;
+        margin: 1rem 0rem 7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cmp{
+        width: 250px;
+        margin-bottom: 7rem;
+    }
+    .div8{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        text-align: center;
+    }
+    .div8Title{
+        font-family: var(--font);
+        font-weight: 600;
+        font-size: 3rem;
+        margin-bottom: 1rem;    
+    }
+    .div8Desc{
+        font-family: var(--font);
+        font-size: 1.5rem;
+        padding: 0 3.5rem;
+        font-weight: 400;
+        color: var(--GrayishBlue);
+        line-height: 35px;
+        margin-bottom: 2rem;
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        margin: 0rem 0rem 0;
+        padding: 2rem 0;
+        background-color: hsla(200, 13%, 77%, 0.625);
+    }
+    .FooterlogoDiv,.socialMedia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .FooterlogoDiv{
+        margin: 0 0rem 3rem 0rem;
+    }
+    .footerLogo{
+        width: 70px;
+    }
+    .features{
+        margin: 0 0rem 0 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .feature1,.feature2,.feature3,.feature4,.feature5{
+        font-family: var(--font);
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        margin-left:0rem ;
+        padding-left:0rem ;
+        color: var(--DarkGrayishBlue);
+        cursor: pointer;
+    }
+    .socialMedia{
+        margin-left: 0rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+
+        
+    }
+    .icon{
+        margin-right: 2rem;
+        width: 40px;
+    }
+}
+@media screen and (max-width:1030px) and (min-width:431px) {
+    html,body{
+        width: 100%;
+        min-height: 100vh;
+    }
+    .container{
+        width: 100%;
+        min-width: 100vh;
+        background: url(./images/bg-header-desktop.png) no-repeat ;
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0rem;
+    }
+    .div1{
+        margin:0rem ;
+        padding: 5rem 5rem 0 5rem;
+        text-align: center;
+        width: 100%;
+
+    }
+    .logo{
+        width: 80px;
+        margin-bottom: 1.5rem;
+    }
+    .title{
+        font-family: var(--font);
+        font-weight: 600;
+        margin-bottom:1rem ;
+    }
+    .titleDesc{
+        font-family:var(--font) ;
+        font-weight: 400;
+        font-size: 1.2rem;
+        padding: 0 5rem;
+        margin-bottom: 2rem;
+        color: var(--GrayishBlue);
+    }
+    .btnIos,.btnMac{
+        width:170px;
+        padding: 9px;
+        border-radius: 1rem;
+        margin-right: 0.5rem;
+        font-weight: 600;
+        color: white;
+        font-family: var(--font);
+        cursor: pointer;
+    }
+    .btnIos{
+        background-color: var(--strongCyan);
+        border: 2px solid var(--strongCyan);
+        box-shadow: 0 4px 2px  hsl(171, 65%, 36%);
+    }
+    .btnMac{
+        background-color: var(--LightBlue);
+        border: 2px solid var(--LightBlue);
+        box-shadow: 0 4px 2px  hsl(233, 63%, 56%);
+    }
+    .btnBar{
+        margin-bottom: 3rem;
+    }
+    .div2{
+        text-align: center;
+        margin-bottom: 4rem;
+        width: 100%;
+        padding: 0rem 5rem 0 5rem;
+    }
+    .div2Title{
+        font-family: var(--font);
+        font-weight: 600;
+        margin-bottom: 1rem;
+        font-size: 1.6rem;
+    }
+    .div2TitleDesc{
+        font-family: var(--font);
+        font-weight: 400;
+        font-size: 1.2rem;
+        color: var(--GrayishBlue);
+        padding:  0 5rem;
+        line-height: 25px;
+    }
+    .div3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 2rem;
+        padding: 0rem 5rem 0 5rem;
+    }
+    .computer{
+        width: 70%;
+        object-position: 0px;
+        margin-bottom: 2rem;
+    }
+    .div3Desc{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .desc1,.desc2,.desc3{
+        width: 50%;
+        margin-bottom: 3rem;
+        padding: 0.5rem   ;
+    }
+    .desc1desc,.desc2desc,.desc3desc{
+        font-family: var(--font);
+        font-size: 0.8rem;
+        padding: 0 1rem;
+        color: var(--GrayishBlue);
+        line-height: 25px   ;
+    }
+    .desc1title,.desc2title,.desc3title{
+        font-family: var(--font);
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .div4{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+        padding: 0rem 5rem 0 5rem;
+    }
+    .div4title{
+        font-family: var(--font);
+        font-weight: 600;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+    .div4Desc{
+        font-family: var(--font);
+        color: var(--GrayishBlue);
+        font-size:0.9rem;
+        padding: 0 0rem;
+        line-height: 25px;
+        word-spacing: 2px;
+    }
+    .div5{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+        padding: 0 5rem 0 5rem;
+    }
+    .div5 img{
+        width: 90%;
+    }
+    .div6{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0rem 5rem 0 5rem;
+    }
+    .div6Title{
+        font-family: var(--font);
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .div6Titledesc{
+        font-family: var(--font);
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--GrayishBlue);
+    }
+    .div6Types{
+        display: flex;
+        padding: 0 0rem;
+        margin: 2rem 0  ;
+    }
+    .blacklist,.sneakPreview,.plaintext{
+        width: 35%;
+        margin-right: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+    .blacklistLogo,.sneakPreviewLogo,.plaintextLogo{
+        margin-bottom:1.5rem ;
+    }
+    .blacklistTitle,.plaintextTitle,.sneakPreviewTitle{
+        font-family: var(--font);
+        font-weight: 600;
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    .blacklistDesc,.plaintextDesc,.sneakPreviewDesc{
+        font-family: var(--font);
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: var(--GrayishBlue);
+        padding: 0 0px;
+        line-height: 25px;
+    }
+    .sneakPreviewDesc{
+        padding: 0 0px 0 0;
+    }
+    .div7{
+        width: 100%;
+        margin: 1rem 0rem 5rem;
+        padding: 0rem 5rem 0 5rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .cmp{
+        width: 80px;
+    }
+    .div8{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        text-align: center;
+        padding: 0rem 5rem 0 5rem;
+    }
+    .div8Title{
+        font-family: var(--font);
+        font-weight: 600;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .div8Desc{
+        font-family: var(--font);
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: var(--GrayishBlue);
+        padding: 0 5rem;
+        line-height: 25px;
+        margin-bottom: 2rem;
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        margin: 3rem 0rem 0;
+        padding: 2rem;
+        background-color: hsla(200, 13%, 77%, 0.625);
+    }
+    .FooterlogoDiv,.socialMedia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .FooterlogoDiv{
+        margin: 0 3rem 0 0rem;
+    }
+    .features{
+        margin: 0 1rem 0 0rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:1fr 1fr ;
+        gap: 1rem;
+    }
+    .feature1,.feature2,.feature3,.feature4,.feature5{
+        font-family: var(--font);
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-left:1rem ;
+        padding-left:0rem ;
+        color: var(--DarkGrayishBlue);
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
